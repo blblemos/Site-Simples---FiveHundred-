@@ -16,6 +16,7 @@
         
         <div target=ttop class="sessao">
             <header>
+                <header class="header-one"></header>
                 <div class="container">
                     <div class="header-logo">
                         <img src="IMG/img-logo.png" alt="Logo">
@@ -23,10 +24,10 @@
     
                     <nav class="header-menu-desk">
                         <ul class="menu-desk">
-                            <li><a class="tpq-site_container"  href="">o que um site precisa</a></li>
-                            <li><a class="tmotivos" href="">sobre</a></li>
-                            <li><a class="tdepoimentos" href="">depoimentos</a></li>
-                            <li><a class="tcontato" href="">contato</a></li>
+                            <li class="tpq-site_container">o que um site precisa?</li>
+                            <li class="tmotivos">sobre</li>
+                            <li class="tdepoimentos">depoimentos</li>
+                            <li class="tcontato">contato</li>
                         </ul>
                     </nav><!--header-menu-->
     
@@ -34,10 +35,10 @@
                         <img src="IMG/menu.png" alt="menu">
     
                         <ul class="menu-mobile">
-                            <li><a class="tpq-site_container" href="">o que um site precisa</a></li>
-                            <li><a class="tmotivos" href="">sobre</a></li>
-                            <li><a class="tdepoimentos" href="">depoimentos</a></li>
-                            <li><a class="tcontato" href="">contato</a></li>
+                            <li class="tpq-site_container">o que um site precisa?</li>
+                            <li class="tmotivos">sobre</li>
+                            <li class="tdepoimentos">depoimentos</li>
+                            <li class="tcontato">contato</li>
                         </ul>
                     </nav><!--header-menu-->
                     <div class="clear"></div>
@@ -304,28 +305,32 @@
         
         <section target="tcontato" class="sessao contato">
             <h2>Contato</h2>
-
+            
             <form action="">
+                <div class="box-sucess container">
+                    <h1>Informações Enviadas Com Sucesso!</h1>
+                    <p>Em breve nossa equipe retornará o contato.</p>
+                </div>
                 <div class="form-wraper w100">
                     <span>*Nome:</span>
-                    <input required type="text" name="nome" placeholder="Carlos Araujo">
+                    <input  type="text" name="nome" placeholder="Carlos Araujo">
                 </div><!--form-wraper w100-->
 
                 <div class="form-wraper w50">
                     <span>*E-Mail:</span>
-                    <input required type="email" name="email" placeholder="fivehundred@gmail.com">
+                    <input  type="text" name="email" placeholder="fivehundred@gmail.com">
                 </div><!--form-wraper w50-->
 
                 <div class="form-wraper w50">
                     <span>*Telefone:</span>
-                    <input required type="tel" name="telefone" placeholder="(74) 3668 1234">
+                    <input  type="tel" name="telefone" placeholder="(74) 9 9999-1234" id="phone">
                 </div><!--form-wraper w50-->
 
                 <div class="form-wraper w100">
                     <span>Mensagem:</span>
                     <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Dúvidas, sugestões..."></textarea>
                 </div><!--form-wraper w100-->
-
+                
                 <div class="form-wraper w100">
                     <input type="submit" name="acao" value="Enviar">
                 </div><!--form-wraper w100-->
@@ -361,6 +366,8 @@
         <script src="JS/slick.js"></script>
         <script src="JS/slides.js"></script>
         <script src="JS/functions.js"></script>
+        <script src="JS/validate-form.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
         
     </body>
 

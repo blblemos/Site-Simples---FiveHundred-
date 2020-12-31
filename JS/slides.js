@@ -1,5 +1,5 @@
 $(function(){
-    $('.mosaico .container .mosaico-wraper').slick({
+    $(".mosaico .container .mosaico-wraper").slick({
         centerMode: false,
         slidesToShow:6,
         arrows:false,
@@ -34,7 +34,7 @@ $(function(){
         ]
     });
 
-    $('.motivos .container').slick({
+    $(".motivos .container").slick({
         centerMode:false,
         slidesToShow:3,
         arrows:false,
@@ -64,7 +64,7 @@ $(function(){
         ]
     });
 
-    $('.depoimentos .container').slick({
+    $(".depoimentos .container").slick({
         centerMode:false,
         slidesToShow:1,
         arrows:false,
@@ -72,7 +72,7 @@ $(function(){
         infinite: false
     });
 
-    $('.social .mosaico-social').slick({
+    $(".social .mosaico-social").slick({
         centerMode: false,
         slidesToShow:9,
         arrows:false,
@@ -124,4 +124,4 @@ $(function(){
         },
         ]
     });
-})
+});
