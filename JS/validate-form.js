@@ -1,6 +1,6 @@
 $(document).ready(function () { 
     var $newPhone = $("#phone");
-    $newPhone.mask('(00) 0 0000-0000');
+    $newPhone.mask("(00) 0 0000-0000");
 });
 
 function validateEmail(email) {
