@@ -5,8 +5,8 @@ $(function(){
         $(".sessao").each(function(){
             var elOFFY = $(this).offset().top;
             
-            if(elOFFY+250 < (windowOFFY + windowHeight)){
-                $(".menu-desk li, .menu-mobile li").css("color","#b4b4b4");    
+            if(elOFFY+550 < (windowOFFY + windowHeight)){
+                $(".menu-desk li, .menu-mobile li a").css("color","#b4b4b4");    
                 var target = $(this).attr("target");
                 
                 if(target !== "ttop"){

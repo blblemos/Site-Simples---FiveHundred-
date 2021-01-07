@@ -34,11 +34,11 @@
                     <nav class="header-menu-mobile">
                         <img src="IMG/menu.png" alt="menu">
     
-                        <ul class="menu-mobile">
-                            <li class="tpq-site_container">o que um site precisa?</li>
-                            <li class="tmotivos">sobre</li>
-                            <li class="tdepoimentos">depoimentos</li>
-                            <li class="tcontato">contato</li>
+                        <ul class="menu-mobile" id="menuMobile">
+                            <li ><a class="tpq-site_container" href="#tpq-site_container">o que um site precisa?</a></li>
+                            <li ><a class="tmotivos" href="#tmotivos">sobre</a></li>
+                            <li ><a class="tdepoimentos" href="#tdepoimentos">depoimentos</a></li>
+                            <li ><a class="tcontato" href="#tcontato">contato</a></li>
                         </ul>
                     </nav><!--header-menu-->
                     <div class="clear"></div>
@@ -108,7 +108,7 @@
 
         <div class="clear"></div>
 
-        <div target="tpq-site_container" class="sessao">
+        <div target="tpq-site_container" class="sessao" id="tpq-site_container">
             <section class=" pq-site_container">
                 <div class="container">
                     <div class="pq-site_wraper">
@@ -148,7 +148,7 @@
             </section><!--videos-->
         </div>
 
-        <div target="tmotivos" class="sessao">
+        <div target="tmotivos" class="sessao" id="tmotivos">
             <section class="motivos" >
                 <h2>Sobre Sites</h2>
                 <div class="container">
@@ -220,7 +220,7 @@
             </section><!--motivos-->
         </div>
 
-        <div target="tdepoimentos" class="sessao">
+        <div target="tdepoimentos" class="sessao" id="tdepoimentos">
             <section  class="depoimentos">
                 <h2>Depoimentos</h2>
                 <div class="container">
@@ -303,7 +303,7 @@
             </section><!--social-->
         </div>
         
-        <section target="tcontato" class="sessao contato">
+        <section target="tcontato" class="sessao contato" id="tcontato">
             <h2>Contato</h2>
             
             <form action="">
@@ -368,6 +368,7 @@
         <script src="JS/functions.js"></script>
         <script src="JS/validate-form.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+        <script src="JS/menuScroll.js"></script>
         
     </body>
 
