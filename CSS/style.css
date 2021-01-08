@@ -26,7 +26,6 @@ body {
   margin: 0 auto;
 }
 
-/*Inicio header*/ 
 header {
   position: fixed;
   left: 50%;
@@ -118,10 +117,6 @@ header nav.header-menu-mobile a {
   color: #b4b4b4;
 }
 
-/*Fim header*/ 
-
-/*Inicio section class"mosaico"*/ 
-
 .mosaico-single {
   float: left;
   width: calc(100% / 6);
@@ -140,10 +135,6 @@ header nav.header-menu-mobile a {
   padding-right: 2%;
 }
 
-/*Fim section class"mosaico"*/ 
-
-/*Inicio section class"servicos"*/ 
-
 section.servicos div.container {
   max-width: 800px;
   display: flex;
@@ -153,21 +144,11 @@ section.servicos div.container {
   padding: 0 5%;
 }
 
-section.servicos div.container div.box-servico:nth-last-of-type(1),
 div.box-servico:nth-last-of-type(3) {
   width: 30%;
   padding: 30px 2%;
   height: 100px;
   background-color: rgb(68, 68, 190);
-}
-
-section.servicos div.container div.box-servico {
-  text-align: center;
-}
-
-section.pq-site_container div.text_pq-site h2 {
-  color: rgb(46, 46, 177);
-  font-size: 18px;
 }
 
 section.motivos h2 {
@@ -179,6 +160,22 @@ section.motivos h2 {
   padding: 20px;
 }
 
+section.servicos div.container div.box-servico {
+  text-align: center;
+}
+
+section.servicos div.container div.box-servico:nth-last-of-type(1) {
+  width: 30%;
+  padding: 30px 2%;
+  height: 100px;
+  background-color: rgb(68, 68, 190);
+}
+
+section.pq-site_container div.text_pq-site h2 {
+  color: rgb(46, 46, 177);
+  font-size: 18px;
+}
+
 section.motivos div.motivos-single h2 {
   font-size: 18px;
   color: rgb(68, 68, 190);
@@ -187,11 +184,54 @@ section.motivos div.motivos-single h2 {
   padding: 0 0;
 }
 
+section.depoimentos h2 {
+  font-size: 30px;
+  color: rgb(46, 46, 177);
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+section.contato h2 {
+  font-size: 30px;
+  color: rgb(46, 46, 177);
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
 section.servicos div.container div.box-servico h2 {
   color: white;
   font-weight: normal;
   font-size: 15px;
   text-transform: uppercase;
+}
+
+section.depoimentos div.nome-depoimento img {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  display: inline-block;
+}
+
+section.social div.instagram-chamada img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.mosaico-social .img-mosaico-single-social img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section.social div.face-chamada img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
 }
 
 section.servicos div.container div.box-servico img {
@@ -205,10 +245,6 @@ section.servicos div.container div.box-servico:nth-last-of-type(2) {
   height: 130px;
   background-color: rgb(46, 46, 177);
 }
-
-/*Fim section class"servicos"*/ 
-
-/*Inicio section class"pq-site_container*/ 
 
 section.pq-site_container {
   padding: 40px 2%;
@@ -246,6 +282,10 @@ section.pq-site_container div.text_pq-site {
   padding: 0 30px;
 }
 
+.box-sucess p {
+  font-size: 12px;
+}
+
 section.pq-site_container div.text_pq-site p {
   color: rgb(68, 68, 190);
   font-size: 14px;
@@ -253,9 +293,6 @@ section.pq-site_container div.text_pq-site p {
   margin-top: 10px;
 }
 
-/*Fim section class"pq-site_container*/ 
-
-/*Inicio section clas"videos"*/ 
 section.videos {
   padding: 50px 0;
 }
@@ -276,9 +313,6 @@ section.videos iframe {
   padding: 0 10px;
 }
 
-/*Fim section clas"videos"*/ 
-
-/*Inicio section class"motivos"*/ 
 section.motivos {
   padding: 50px 0;
 }
@@ -300,19 +334,8 @@ section.motivos div.motivos-single p {
   padding: 10px 0;
 }
 
-/*Fim section class"motivos"*/ 
-
-/*Inicio section class"depoimentos"*/ 
 section.depoimento {
   padding: 50px;
-}
-
-section.depoimentos h2 {
-  font-size: 30px;
-  color: rgb(46, 46, 177);
-  text-align: center;
-  font-weight: bold;
-  padding: 20px;
 }
 
 section.depoimentos div.container {
@@ -325,20 +348,18 @@ section.depoimentos div.depoimento-single {
   padding: 0 2%;
 }
 
-section.depoimentos div.depoimento-single quote {
+section.depoimentos div.depoimento-single {
   font-size: 20px;
-  color:  rgb(68, 68, 190);
+  color: rgb(68, 68, 190);
 }
 
 section.depoimentos div.nome-depoimento {
   padding: 19px 0;
 }
 
-section.depoimentos div.nome-depoimento img {
-  width: 32px;
-  height: 32px;
-  border-radius: 16px;
-  display: inline-block;
+.form-wraper span {
+  font-size: 15px;
+  color: #4444be;
 }
 
 section.depoimentos div.depoimento-single span {
@@ -349,11 +370,8 @@ section.depoimentos div.depoimento-single span {
   vertical-align: top;
   position: relative;
   top: 4px;
-} 
+}
 
-/*Fim section class"depoimentos"*/
-
-/*Inicio section class"social"*/
 section.social div.instagram-chamada {
   float: left;
   width: 100%;
@@ -368,12 +386,6 @@ section.social div.instagram-chamada p {
   font-weight: bold;
 }
 
-section.social div.instagram-chamada img {
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-}
-
 .mosaico-social {
   float: left;
   width: 100%;
@@ -384,19 +396,9 @@ section.social div.instagram-chamada img {
   float: left;
   height: 150px;
   width: 150px;
-  /*width: calc(100% / 9);
-  padding-top: calc(100% / 9) ;*/
   background-color: #b4b4b4;
   border: 5px solid white;
   position: relative;
-}
-
-.mosaico-social .img-mosaico-single-social img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 section.social div.face-chamada {
@@ -413,23 +415,8 @@ section.social div.face-chamada p {
   font-weight: bold;
 }
 
-section.social div.face-chamada img {
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-}
-/*Fim section class"social"*/
-/*Inicio section class"contato"*/
 section.contato {
   padding: 60px 2%;
-}
-
-section.contato h2 {
-  font-size: 30px;
-  color: rgb(46, 46, 177);
-  text-align: center;
-  font-weight: bold;
-  padding: 20px;
 }
 
 section.contato form {
@@ -450,11 +437,6 @@ section.contato form {
 
 .w50 {
   width: 50%;
-}
-
-.form-wraper span {
-  font-size: 15px;
-  color: #4444BE;
 }
 
 .form-wraper input[type=text],
@@ -505,13 +487,6 @@ input[type=tel] {
   font-size: 18px;
 }
 
-.box-sucess p {
-  font-size: 12px;
-}
-
-/*Fim section class"contato"*/
-
-/*Inicio footer*/
 footer {
   background-color: rgb(68, 68, 190);
   padding: 40px 2%;
@@ -539,9 +514,6 @@ footer .footer-block {
   margin-top: 8px;
 }
 
-/*Fim footer*/
-
-/*Inicio Estilo Slick*/
 .slick-dotted ul {
   list-style-type: none;
   text-align: center;
@@ -578,8 +550,6 @@ li.slick-active button {
   outline: none;
 }
 
-/*Fim Estilo Slick*/
-/* Inicio Responsividade 768px*/
 @media screen and (max-width: 768px){
   section.servicos div.container {
     flex-direction: column;
@@ -671,8 +641,6 @@ li.slick-active button {
   }
 }
 
-/* Fim Responsividade 768px*/
-/*Inicio Responsivo 900px*/
 @media screen and (max-width: 900px){
   header .header-one {
     display: none;
@@ -686,8 +654,6 @@ li.slick-active button {
   }
 }
 
-/*Fim Responsivo 900px*/
-/*Inicio Responsivo 1024px*/
 @media screen and (max-width: 1024px){
   .img-mosaico-single-social {
     width: calc(100% / 6);
@@ -698,5 +664,3 @@ li.slick-active button {
     display: none;
   }
 }
-
-/*Fim Responsivo 1024px*/
