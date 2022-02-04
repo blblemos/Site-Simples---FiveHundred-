@@ -1,42 +1,40 @@
-# Site-Simples---FiveHundred-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f15bc750a7e846d6bf357e1c7d3d3ae4)](https://www.codacy.com/gh/blblemos/Site-Simples---FiveHundred-/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=blblemos/Site-Simples---FiveHundred-&amp;utm_campaign=Badge_Grade)
----
-### Web
----
-<img  src="./Git/IMG/web-home.png">
-<img  src="./Git/IMG/web-servicos.png"> 
-<img  src="./Git/IMG/web-sobre.png"> 
-<img  src="./Git/IMG/web-contato.png"> 
-
-### Mobile
----
-<div aling="center" display="flex">
-<img  width="49.1%" height="600" src="./Git/IMG/mobile-home.png">
-<img  width="49.9%" height="600" src="./Git/IMG/mobile-servico.png">
-<img  width="49.1%" height="600" src="./Git/IMG/mobile-sobre.png">
-<img  width="49.9%" height="600" src="./Git/IMG/mobile-contato.png">
-</div>
+<h1 align="center">Site-Simples---FiveHundred-</h1>
 
 #### Sobre
 ---
 O site é uma landing page responsiva e simples, desenvolvida com objetivo de praticar conceitos básicos de: 
 
 -   HTML;
+-   Jquery;
+-   Slick;
 -   CSS;
--   jQuery;
 -   JavaScript. 
 
-O projeto foi feito durante o curso **[Front End Completo - Danki Code]( https://cursos.dankicode.com/curso-front-end-completo)**, porém foi idealizado pensando em uma empresa fictícia chamada [Five Hundred](#-five-hundred). Foram aplicadas diversas melhorias em relação ao projeto inicial como:
+O projeto foi feito durante o curso **Front End Completo - Danki Code**, porém foi idealizado pensando em uma empresa fictícia chamada **Five Hundred**. Foram aplicadas diversas melhorias em relação ao projeto inicial como:
 
 -   Menu Mobile;
 -   Menu Scroll;
--   Tela de confirmação de formulário;
--   Melhorias no Slide;
 -   Entre outras mudanças.
 
 #### Five Hundred
 ---
 É uma empresa fictícia criada durante a faculdade por mim e por outros três colegas, para realizarmos alguns trabalhos durante o período do curso e para projetos externos.
 
-#### [Visite o Projeto <img width="19" align="center" src="./Git/IMG/link.png">](https://blblemos.github.io/Modelo-Landing-Page-FiveHundred-02/)
+#### [Visite o Projeto](https://blblemos.github.io/Site-Simples---FiveHundred-/)
 ---
+### Web
+---
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/52580590/152453510-372a5e25-36bc-4093-8d74-14fb9c03df69.png"/>
+</div>
+
+### Mobile
+---
+<div align="center">
+  <img align="center" src="https://user-images.githubusercontent.com/52580590/152454192-05364795-f34d-41a7-adca-e6343e546214.jpg"/>
+</div>
+
+
+
+
+
