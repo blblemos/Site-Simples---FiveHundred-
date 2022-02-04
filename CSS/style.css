@@ -547,6 +547,16 @@ li.slick-active button {
   outline: none;
 }
 
+@media screen and (max-width: 330px){
+  header div.header-logo img {
+    width: 230px;
+  }
+
+  header nav.header-menu-mobile img {
+    top: 6px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   section.servicos div.container {
     flex-direction: column;
